@@ -1,0 +1,46 @@
+*** university.exe [usage] ***
+
+[show usage]:
+	
+	university.exe
+	||
+	university.exe -help
+
+[show report]:
+	
+	university.exe -report
+
+[show all objects]:
+	
+	university.exe -lessons (show all lessons)
+	university.exe -groups (show all groups)
+	university.exe -students (show all students)
+	university.exe -instructors (show all instructors)
+
+[show object detail]:
+	
+	university.exe -lessons <index> (show lesson info at index)
+	university.exe -groups <index> (show group info at index)
+	university.exe -students <index> (show student info at index)
+	university.exe -instructors <index> (show instructor info at index)
+
+[add object]:
+
+	university.exe -lessons -add (add new lesson)
+	university.exe -groups -add (add new group)
+	university.exe -students -add (add new student)
+	university.exe -instructors -add (add new instructor)
+
+[delete object]:
+	
+	university.exe -lessons -delete <index> (delete lesson at index)
+	university.exe -groups -delete <index> (delete group at index)
+	university.exe -students -delete <index> (delete student at index)
+	university.exe -instructors -delete <index> (delete instructor at index)
+
+[edit object]:
+
+	university.exe -lessons -edit <index> (edit lesson at index)
+	university.exe -groups -edit <index> (edit group at index)
+	university.exe -students -edit <index> (edit student at index)
+	university.exe -instructors -edit <index> (edit instructor at index)
